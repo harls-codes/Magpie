@@ -160,3 +160,83 @@ main[b-8d1jbfg1e4] {
         overflow-y: auto;
     }
 }
+/* /Pages/ServiceTest.razor.rz.scp.css */
+/* Container */
+
+.service-form[b-7v3c9rgnr9] {
+    background: lime !important;
+    border: 5px solid red !important;
+}
+/*
+.service-form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-family: 'Comic Sans MS', sans-serif;
+}*/
+
+    /* Title */
+    .service-form h2[b-7v3c9rgnr9] {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+/* Grid layout */
+.form-grid[b-7v3c9rgnr9] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* Form group styling */
+.form-group[b-7v3c9rgnr9] {
+    display: flex;
+    flex-direction: column;
+}
+
+    .form-group label[b-7v3c9rgnr9] {
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .form-group input[b-7v3c9rgnr9] {
+        padding: 8px 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+    }
+
+        .form-group input:focus[b-7v3c9rgnr9] {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+/* Button styling */
+.form-actions[b-7v3c9rgnr9] {
+    text-align: right;
+    margin-top: 20px;
+}
+
+    .form-actions button[b-7v3c9rgnr9] {
+        background: #007BFF;
+        color: white;
+        padding: 10px 18px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background 0.3s ease;
+    }
+
+        .form-actions button:hover[b-7v3c9rgnr9] {
+            background: #0056b3;
+        }
+
+}
