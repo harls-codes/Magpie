@@ -71,17 +71,18 @@ a, .btn-link {
     width: 8rem;
     height: 8rem;
     margin: 20vh auto 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .spin {
     width: 100px; /* change size */
     height: 100px;
     animation: spin 1.5s linear infinite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
+
 @keyframes spin {
     from {
         transform: rotate(0deg);
