@@ -73,14 +73,20 @@ a, .btn-link {
     margin: 20vh auto 1rem auto;
 }
 
-    .loading-progress circle {
-        fill: none;
-        stroke: #e0e0e0;
-        stroke-width: 0.6rem;
-        transform-origin: 50% 50%;
-        transform: rotate(-90deg);
+.spin {
+    width: 100px; /* change size */
+    height: 100px;
+    animation: spin 1.5s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
     }
 
+    to {
+        transform: rotate(360deg);
+    }
+}
         .loading-progress circle:last-child {
             stroke: #1b6ec2;
             stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
