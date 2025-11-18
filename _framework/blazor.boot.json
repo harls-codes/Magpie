@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Magpie",
   "resources": {
-    "hash": "sha256-loqOBVCBRDJ79jpowJJ16N3INPTLYHJjzDwn5O0mW/Y=",
+    "hash": "sha256-LU0fxmDNWzopmY9+hz3RIR4Z7KCQe+XaZqZa3Jo57BM=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -18,7 +18,7 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "Magpie.wasm": "sha256-PhgMMCQyXrPyi39kCCDVplmzvTJKBwwF3RRMhKnzLCY=",
+      "Magpie.wasm": "sha256-rYfjyY/EO0pt49OEgxUuic05B2S9+CDLg2wXO5SrXe4=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-eMtbnbSxYp/Mn4wDiJEd8MvBE+el4XXvny/GVWlUgUc=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-vbmhR3SSHxQ7d2rRoVmpYplGgf5f0NGZK4xeg+ufpME=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-NOB0DLKw4CpwurMo/tLPj5EqDGbq8XzUQmGcHBZF3uU=",
