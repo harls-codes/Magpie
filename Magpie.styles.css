@@ -166,4 +166,394 @@ main[b-8d1jbfg1e4] {
         overflow-y: auto;
     }
 }
+/* /Pages/Agenda.razor.rz.scp.css */
+.container[b-fodwlontiw] {
+    display: block;
+    grid-template-columns: 80px 1fr;
+    gap: 0;
+    border: 1px solid #e0e6ed;
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 10vh;
+    max-height: 70vh; 
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #B39DDB #f0f4f8;
+}
+
+/* Left time column */
+.time-column[b-fodwlontiw] {
+    background-color: #f0f4f8;
+    border-right: 1px solid #e0e6ed;
+}
+
+.time-slot[b-fodwlontiw] {
+    height: 30px; /* 5-minute slots */
+    font-size: 0.9rem;
+    display: flex;
+    grid-auto-rows: 30px;
+    align-items: center;
+    padding: 0 12px;
+    font-size: 0.8rem;
+    color: #666;
+    border-bottom: 1px solid rgba(224, 230, 237, 0.5);
+}
+
+/* Right availability grid */
+.availability-column[b-fodwlontiw] {
+    display: grid;
+    grid-auto-rows: 30px; /* 5-minute slots */
+    position: relative;
+    background: white;
+}
+
+/* Availability block spans multiple rows */
+.availability-block[b-fodwlontiw] {
+    background-color: #E6E6FA;
+    border: 1px solid #B39DDB;
+    border-radius: 4px;
+    margin: 2px 8px;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    overflow: hidden;
+    z-index: 1;
+}
+
+    .availability-block:hover[b-fodwlontiw] {
+        background-color: #C3BCEB;
+        box-shadow: 0 2px 4px rgba(179, 157, 219, 0.3);
+        transform: translateY(-1px);
+    }
+
+    .availability-block span[b-fodwlontiw] {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 500;
+    }
+
+/* Every 12th slot (hour marker) styling */
+.time-slot:nth-child(12n)[b-fodwlontiw] {
+    font-weight: 600;
+    color: #2c3e50;
+    background-color: rgba(240, 244, 248, 0.7);
+}
+
+/* Optional: Add hour labels on left */
+.hour-label[b-fodwlontiw] {
+    grid-column: 1;
+    font-weight: 600;
+    color: #2c3e50;
+    padding: 4px 12px;
+    border-bottom: 2px solid #e0e6ed;
+    background-color: #f0f4f8;
+}
+/* /Pages/Booking.razor.rz.scp.css */
+.booking-container[b-7q44sxrssf] {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+h3[b-7q44sxrssf] {
+    text-align: left;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border-bottom: none;
+}
+
+.form-fields[b-7q44sxrssf] {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.name-row[b-7q44sxrssf] {
+    display: flex;
+    gap: 1rem;
+}
+
+    .name-row .field-group[b-7q44sxrssf] {
+        flex: 1;
+    }
+
+.field-group[b-7q44sxrssf] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+label[b-7q44sxrssf] {
+    font-weight: 400;
+    color: #888;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+input[b-7q44sxrssf] {
+    padding: 0.75rem 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    font-size: 1rem;
+    background: transparent;
+    width: 100%;
+}
+
+    input:focus[b-7q44sxrssf] {
+        outline: none;
+        border-color: #4a90e2;
+        background: transparent;
+        box-shadow: none;
+    }
+
+.payment-section[b-7q44sxrssf] {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+}
+
+button[b-7q44sxrssf] {
+    width: 100%;
+    padding: 1rem;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.payment-note[b-7q44sxrssf] {
+    display: none;
+}
+/* /Pages/Calendar.razor.rz.scp.css */
+/*Calendar Styles*/
+
+.calendar[b-f6uwy2wqtg] {
+    display: grid !important;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
+/* Day headers */
+.calendar-header[b-f6uwy2wqtg] {
+    background-color: #f0f4f8;
+    color: #2c3e50;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid #e0e6ed;
+}
+
+/* Normal day cells */
+.calendar-day[b-f6uwy2wqtg] {
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    height: 90px;
+    padding: 6px 8px;
+    font-size: 0.95rem;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+    .calendar-day:hover[b-f6uwy2wqtg] {
+        background-color: #E6E6FA;
+        box-shadow: 0 0 0 2px #E6E6FA;
+    }
+
+/* Today */
+.calendar-today[b-f6uwy2wqtg] {
+    background-color: #C3BCEB;
+    border: 2px solid #B39DDB;
+    font-weight: 600;
+    color: #0f3057;
+    box-shadow: 0 0 6px rgba(74, 144, 226, 0.3);
+    border-radius: 6px;
+}
+
+
+.page .h1[b-f6uwy2wqtg] {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar-header-bar[b-f6uwy2wqtg] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0 10px;
+}
+
+    .calendar-header-bar h1[b-f6uwy2wqtg] {
+        font-size: 1.8rem;
+        color: #2c3e50;
+        margin: 0;
+    }
+
+/* Nav buttons */
+.calendar-nav-buttons[b-f6uwy2wqtg] {
+    display: flex;
+    gap: 10px;
+}
+
+    .calendar-nav-buttons button[b-f6uwy2wqtg] {
+        background-color: #B39DDB;
+        color: #fff;
+        border: none;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+        .calendar-nav-buttons button:hover[b-f6uwy2wqtg] {
+            background-color: #9370DB;
+        }
+
+
+.circle[b-f6uwy2wqtg] {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: violet;
+    color: white;
+    font-weight: bold;
+}
 /* /Pages/Counter.razor.rz.scp.css */
+/* /Pages/Login.razor.rz.scp.css */
+/* Login Container */
+.login-container[b-jffazcnpax] {
+    max-width: 400px;
+    margin: 4rem auto;
+    padding: 2.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Title */
+h1[b-jffazcnpax] {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+/* Form Layout */
+form[b-jffazcnpax] {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Labels */
+label[b-jffazcnpax] {
+    display: block;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+}
+
+/* Inputs */
+input[type="text"][b-jffazcnpax],
+input[type="password"][b-jffazcnpax] {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f9fafb;
+    transition: all 0.2s;
+    box-sizing: border-box;
+}
+
+input:focus[b-jffazcnpax] {
+    outline: none;
+    border-color: #3b82f6;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Error Message */
+p[style*="color:red"][b-jffazcnpax] {
+    background: #fee;
+    color: #dc2626;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    border-left: 4px solid #dc2626;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+/* Button */
+button[b-jffazcnpax] {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 0.5rem;
+}
+
+    button:hover[b-jffazcnpax] {
+        background: #2563eb;
+    }
+
+/* Responsive */
+@media (max-width: 480px) {
+    .login-container[b-jffazcnpax] {
+        margin: 2rem 1rem;
+        padding: 2rem;
+    }
+
+    h1[b-jffazcnpax] {
+        font-size: 1.6rem;
+    }
+}

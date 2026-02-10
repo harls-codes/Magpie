@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Magpie",
   "resources": {
-    "hash": "sha256-cZYK9dIJQas5BYMstYJ4e6MDMgr3FPU/Mf2Bumt0T3c=",
+    "hash": "sha256-Gqo21V97FWX0ti+6hc839T+EnYWLADR8tUnTKE1DIhA=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-NljIbpK/1KCj0+knpX8U77Rbl5kTtfFIuFjK7AuczEw="
     },
@@ -19,7 +19,7 @@
     "coreAssembly": {},
     "assembly": {
       "Blazor-ApexCharts.wasm": "sha256-cYi8ESUAEh1vdu+33SuL5ic5Rshrv7P3ycGTg/+oBqc=",
-      "Microsoft.AspNetCore.Components.wasm": "sha256-Ipn9c99i3jFlvMXvKV33uM1pRpauhRxDtzx5AdnwXTs=",
+      "Microsoft.AspNetCore.Components.wasm": "sha256-cl6YtOWY71uKW7Yg1Z/TBNWJIW2e1wbr3IvrIPaYLuE=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-cFuw/+bk0lc4EEOBrh/PUgghGmsyiXdaZnO4LGeA0u8=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-Qn+tyecbB0K36ZUsIXGqclnElTDuadiyZHsgEmMGAk8=",
       "Microsoft.Extensions.Configuration.wasm": "sha256-od574rRtVVRJj+24jbl8j3GdQFpxlJOpSx+pEMw1Q18=",
@@ -82,8 +82,8 @@
       "System.Xml.ReaderWriter.wasm": "sha256-ZQFNn6sJjLnVms6RNgQs6UmXSiPuyXZTKi+Fi6UORkg=",
       "System.Xml.XDocument.wasm": "sha256-GRMY8l4/muYQaHaN6C8ANqBsMQBixsCd94pHwau1dLE=",
       "System.wasm": "sha256-jXhnUNHzjjL7Plo7WcHuX7V5Dc/Umt+qmGGC+Js76SE=",
-      "System.Private.CoreLib.wasm": "sha256-9P0jh5AElPmi/P5DAbx8Fr8LwopHfy9Wf4P0hnHVgdw=",
-      "Magpie.wasm": "sha256-BbckaDkZvXRtNTYkQo6M3vLUESiUT3Q83ocoF67wrQU="
+      "System.Private.CoreLib.wasm": "sha256-8OQhTuxOYDAvP40COtOTuRCXXJ+c+zT6uNVJJivKR6Y=",
+      "Magpie.wasm": "sha256-up3GKyYvmLheZb5QqD5ghZ14MxXc2rh4wnjCTFwTsxA="
     }
   },
   "cacheBootResources": true,
