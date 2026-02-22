@@ -1,5 +1,37 @@
+
+
+
+@font-face {
+    font-family: 'Brittany Signature';
+    src: url('../fonts/BrittanySignature.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.woff2) format('woff');
+}
+
+input {
+    width: 10%;
+    padding: 0.85rem 1rem;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f9fafb;
+    transition: all 0.2s;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+}
+
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family:Inter;
 }
 /*Standard Styles*/
 h1:focus {

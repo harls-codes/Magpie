@@ -1,13 +1,28 @@
 /* /Layout/MainLayout.razor.rz.scp.css */
-.page[b-8d1jbfg1e4] {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+
+
+.main > footer[b-8d1jbfg1e4] {
+    height: 3rem;
+    max-height: 3rem;
 }
+
+.main > .content[b-8d1jbfg1e4] {
+    height: calc(100vh - 6.5rem);
+    max-height: calc(100vh - 6.5rem);
+    overflow-y: auto;
+    padding-top: 0px;
+}
+
 
 main[b-8d1jbfg1e4] {
     flex: 1;
+    margin-top: 0;
+    padding-top: 1rem;
 }
+
+    main > *:first-child[b-8d1jbfg1e4] {
+        margin-top: 0;
+    }
 
 .sidebar[b-8d1jbfg1e4] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
@@ -15,7 +30,7 @@ main[b-8d1jbfg1e4] {
 
 .top-row[b-8d1jbfg1e4] {
     background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
+    border-bottom: 1px solid red;
     justify-content: flex-end;
     height: 3.5rem;
     display: flex;
@@ -92,12 +107,11 @@ main[b-8d1jbfg1e4] {
 
 .navbar[b-t4pjgucz7s] {
     display: flex;
-    width: 100%;
     align-items: center;
-    padding: 0.6rem; 
-    margin-bottom: 0;
-    list-style: none;
-    height: 7vh;
+    width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+    height: 70px;
 }
 
 .top-row[b-t4pjgucz7s] {
@@ -461,6 +475,52 @@ button[b-7q44sxrssf] {
     font-weight: bold;
 }
 /* /Pages/Counter.razor.rz.scp.css */
+/* /Pages/Home.razor.rz.scp.css */
+
+h1[b-jautpdhsbj], h2[b-jautpdhsbj], h3[b-jautpdhsbj], h4[b-jautpdhsbj] {
+    font-family: 'Brittany Signature', cursive;
+}
+
+.flexbox[b-jautpdhsbj] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    flex-direction:row;
+}
+.hero[b-jautpdhsbj] {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content[b-jautpdhsbj] {
+    text-align: center;
+    color: white;
+}
+
+.hero .display-4[b-jautpdhsbj] {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+.about[b-jautpdhsbj], .services[b-jautpdhsbj] {
+    padding: 60px 0;
+}
+
+
+.service-card[b-jautpdhsbj] {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 /* /Pages/Login.razor.rz.scp.css */
 /* Login Container */
 .login-container[b-jffazcnpax] {
@@ -478,6 +538,7 @@ h1[b-jffazcnpax] {
     text-align: center;
     color: #333;
     margin-bottom: 2rem;
+    font-family: 'Brittany Signature', cursive;
     font-size: 1.8rem;
     font-weight: 700;
 }
@@ -557,4 +618,5 @@ button[b-jffazcnpax] {
     h1[b-jffazcnpax] {
         font-size: 1.6rem;
     }
+
 }
