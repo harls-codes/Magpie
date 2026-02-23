@@ -6,3 +6,4 @@ obj/
 *.suo
 *.cache
 *.pdb
+*.staticwebassets.endpoints.json
