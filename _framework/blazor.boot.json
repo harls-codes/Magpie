@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Magpie",
   "resources": {
-    "hash": "sha256-rHmDicqI75zOSTXzmVMy3EHRapdyHsIeLqv2SfIYgOs=",
+    "hash": "sha256-M5D0v3/+3f+pvcvPxqwDLRF5t+X+RyNnrbluof6A0Ts=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -19,7 +19,7 @@
     "coreAssembly": {},
     "assembly": {
       "Blazor-ApexCharts.wasm": "sha256-cYi8ESUAEh1vdu+33SuL5ic5Rshrv7P3ycGTg/+oBqc=",
-      "Magpie.wasm": "sha256-U0MYdehydrqMcblHn1g+TvkMyzvpvMQXhfWC+4/ARAg=",
+      "Magpie.wasm": "sha256-j/173ongTcjtHMMJqvO+Z8Nnn9DMwaCYzHREXm07jk8=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-cl6YtOWY71uKW7Yg1Z/TBNWJIW2e1wbr3IvrIPaYLuE=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-cFuw/+bk0lc4EEOBrh/PUgghGmsyiXdaZnO4LGeA0u8=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-Qn+tyecbB0K36ZUsIXGqclnElTDuadiyZHsgEmMGAk8=",
