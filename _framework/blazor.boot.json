@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Magpie",
   "resources": {
-    "hash": "sha256-KCkmgkT+K2oPPn49h0JoQBp6+8n72HLgakZSTxGQA2w=",
+    "hash": "sha256-PQ9j4/s/7Byw+ITDmFh4CzcdVLdvLFO2AcVUZx9nds8=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-NljIbpK/1KCj0+knpX8U77Rbl5kTtfFIuFjK7AuczEw="
     },
@@ -96,7 +96,7 @@
       "System.Xml.XmlSerializer.wasm": "sha256-ASRCb98y/eMqmlvR022qMzsIe9crW6UDB6hUdHnLu1k=",
       "System.wasm": "sha256-jXhnUNHzjjL7Plo7WcHuX7V5Dc/Umt+qmGGC+Js76SE=",
       "System.Private.CoreLib.wasm": "sha256-swd08rcHN8dzbu/XSdS+Xhn4rM2C54AkyWlE0XD4Ecc=",
-      "Magpie.wasm": "sha256-OMdc2vHgX7n5gbCsPJ/kOZVKPC3OqOFotwPSQlRKx+g="
+      "Magpie.wasm": "sha256-gSkoXPTO18ENtW7yaA5mWQC2NNAR2oijsGqH6UJZUO0="
     }
   },
   "cacheBootResources": true,
