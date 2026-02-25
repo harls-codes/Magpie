@@ -10,6 +10,15 @@
     font-family: 'Inter';
     src: url(../fonts/Inter-Regular.woff2) format('woff');
 }
+/* ensures the modal overlay covers the whole screen */
+.blazored-modal-overlay {
+    z-index: 2000 !important;
+}
+
+/* ensures the modal popup itself is above other page UI */
+.blazored-modal {
+    z-index: 2001 !important;
+}
 
 input {
     width: 10%;
