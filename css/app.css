@@ -38,6 +38,10 @@ label {
     margin-bottom: 0.4rem;
     font-size: 0.9rem;
 }
+html, body, #app {
+    height: 100vh;
+    max-height: 100vh;
+}
 
 html, body {
     font-family:Inter;

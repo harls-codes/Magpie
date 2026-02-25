@@ -3,31 +3,38 @@
 /* /Layout/MainLayout.razor.rz.scp.css */
 
 
-.main > footer[b-8d1jbfg1e4] {
-    height: 3rem;
-    max-height: 3rem;
+.page[b-8d1jbfg1e4] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+    overflow-x: hidden;
+}
+.bottom-row[b-8d1jbfg1e4] {
+    background-color: #f7f7f7;
+    background-image: linear-gradient(to right, #6C83CF, #CEABB2);
+    border-top: 1px solid #d6d5d5;
+    height: 3.5rem;
+    max-height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box; /* Prevents the width from adding padding/margin */
 }
 
-.main > .content[b-8d1jbfg1e4] {
-    height: calc(100vh - 6.5rem);
-    max-height: calc(100vh - 6.5rem);
-    overflow-y: auto;
-    padding-top: 0px;
-}
-
-
-main[b-8d1jbfg1e4] {
-    flex: 1;
-    margin-top: 0;
-    padding-top: 1rem;
-}
-
-    main > *:first-child[b-8d1jbfg1e4] {
-        margin-top: 0;
+    /*Select all a elements where parent is a .bottom-row*/
+    .bottom-row > a[b-8d1jbfg1e4] {
+        display: flex;
+        color: rgb(33, 37, 41);
+        /*color and text-decor used to not show it as link*/
+        text-decoration: none;
+        /*fontsize is the same copied from navbar-brand style inside NavMenu.razor.css*/
+        font-size: 1.1rem;
     }
 
-.sidebar[b-8d1jbfg1e4] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+main[b-8d1jbfg1e4] {
+    flex-grow: 1;
+    overflow-y: auto;
 }
 
 .top-row[b-8d1jbfg1e4] {
@@ -65,15 +72,15 @@ main[b-8d1jbfg1e4] {
 }
 
 @media (min-width: 641px) {
-    .page[b-8d1jbfg1e4] {
-        flex-direction: row;
-    }
+ 
 
     .sidebar[b-8d1jbfg1e4] {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
+    max-height: 100vh;
+    overflow-y: auto;
+    width: 250px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
     }
 
     .top-row[b-8d1jbfg1e4] {
@@ -215,6 +222,18 @@ main[b-8d1jbfg1e4] {
     color: #666;
     border-bottom: 1px solid rgba(224, 230, 237, 0.5);
 }
+.hour-mark[b-fodwlontiw] {
+    height: 30px; /* 5-minute slots */
+    font-size: 0.9rem;
+    display: flex;
+    grid-auto-rows: 30px;
+    align-items: center;
+    padding: 0 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #2c3e50;
+    background-color: rgba(240, 244, 248, 0.7);
+}
 
 /* Right availability grid */
 .availability-column[b-fodwlontiw] {
@@ -255,11 +274,6 @@ main[b-8d1jbfg1e4] {
     }
 
 
-.time-slot:nth-child(12n)[b-fodwlontiw] {
-    font-weight: 600;
-    color: #2c3e50;
-    background-color: rgba(240, 244, 248, 0.7);
-}
 
 /* Optional: Add hour labels on left */
 .hour-label[b-fodwlontiw] {
