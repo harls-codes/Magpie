@@ -1,6 +1,5 @@
 # Treat WebAssembly as binary
-*.wasm binary
-
+* binary
 # Treat JS, JSON, CSS, HTML as text
 *.js text eol=lf
 *.json text eol=lf
